@@ -1,0 +1,31 @@
+.section {
+    background-color: #101010 !important;
+} 
+
+h1, h5, h4 {
+    color :  white;
+}
+
+p {
+   color : #b9b9b9;
+}
+
+.testimonial-decs {
+    background-color: #b3adad;
+}
+
+#team {
+    background-color: #262626 !important;
+}
+.wave {
+    filter: invert(1);
+}
+
+.wave-three {
+    filter: invert(0.5);
+}
+
+.joinNow {
+    background-color: #565656 !important;
+    color: white !important;
+}

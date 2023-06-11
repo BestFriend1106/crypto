@@ -1,0 +1,291 @@
+.bg-overlay {
+    opacity: 0.6;
+}
+#_nav_container {
+    margin-left: 10%;
+    max-width: none;
+}
+
+#_nav_container > #navbarCollapse {
+    flex-direction: column;
+}
+
+#_nav_container > #navbarCollapse > ul > li {
+    margin-left: 15px;
+}
+
+#home {
+    padding-top: 540px;
+}
+
+#_nav_logo {
+    font-size: 23px;
+    font-family: 'Press Start 2P';
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+#_nav_logo > .logo {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#_display_row {
+    margin-top: -180px;
+    margin-bottom: 235px;
+    max-width: none;
+}
+
+#_homeTitle {
+    /* font-size: 65px; */
+    font-family: 'Press Start 2P';
+    font-size: 45px;
+    /* font-family: muller,sans-serif; */
+    font-weight: 800;
+}
+
+#_homeDate {
+    font-size: 17px;
+    max-width: none;
+    font-family: 'Press Start 2P';
+    letter-spacing: -1px;
+}
+
+#_home_explan {
+    font-size: 25px;
+    font-family: 'Avenir Heavy';
+}
+
+.countup {
+    font-size: 26px;
+    margin-left: 13%;
+    z-index: 9;    
+    font-family: 'Press Start 2P';
+}
+
+.countup > span {
+    font-size: 13px;
+    margin-top: 15px;    
+    letter-spacing: 0px;
+}
+
+.div_countup {
+    display: flex;
+    align-content: flex-end;
+    margin-top: 8%;
+}
+
+.aboutEvent {
+    font-size: 17.4px;
+    line-height: 30px;
+}
+
+._aboutDiv {
+    margin-top: 4%;
+}
+
+#_description > .bg-overlay {
+    opacity: 0.5;
+}
+
+#_description > .container > .row > .text-center > h2 {
+    font-family: 'Press Start 2P';
+    font-size: 24px;
+}
+
+#_description > .container > .row > .text-center > p {
+    font-family: 'Press Start 2P';
+    font-size: 14px;
+    max-width: none;
+}
+
+.home-desc {
+    color: rgb(255 255 255 / 92%);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-transform: none;
+    font-family: 'Press Start 2P';
+    letter-spacing: 0px;
+    font-size: 17px;
+}
+
+._testi_container {
+    max-width: none;
+    padding-right: 15%;
+    padding-left: 15%;
+}
+
+.testimonial-box > .testimonial-decs > p {
+    font-size: 16px;
+}
+
+.testimonial-decs {
+    min-height: 162px;
+}
+
+.joinNow {
+    margin-top: 7%;
+    margin-bottom: 10px !important;
+}
+
+.features-box > .text-muted {
+    color: #6c757d!important;
+}
+
+.features-item-list li {
+    position: relative;
+    line-height: 26px;
+    font-size: 18px;
+    padding: 7px 25px 7px 20px;
+}
+
+#_feature_subtitle {
+    font-size: 16px;
+}
+
+#mySidenav > li > a {
+    font-family: 'Press Start 2P';
+    font-size: 13px;
+}
+
+
+  /* For the demo------------------------------- */
+.slick-slide img {
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
+.slick-slider {
+    width: 100%;
+    overflow: hidden;
+  }
+  .slick-list {
+    position: relative;
+    display: block !important;
+    width: 100%;
+  }
+  .slick-slide div {
+    width: auto;
+    margin-right: 10px;
+  }
+  .slick-slide img {
+    width: calc(100% - 10px) !important;
+  }
+  
+  
+  
+  .slick-prev,
+  .slick-next {
+    z-index: 999 !important;
+  }
+  .slick-prev {
+    left: 25px !important;
+  }
+  .slick-next {
+    right: 25px !important;
+  }
+
+.testimonial-box img {
+    /* margin: -58px auto; */
+    height: 60%;
+    width: 61%;
+    margin-top: 11%;
+    margin-left: 20%;
+}
+
+._countdown {
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    bottom: 30px;
+    right: 30px;
+    border: 3px solid #ffffff;
+    background-color: black;
+    opacity: 0.8;
+    min-width: 210px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 12px;
+}
+
+.displayedTime >  .countBox {
+    display: flex;
+    font-size: 18px;
+    flex-direction: row-reverse;
+} 
+
+.displayedTime >  .countBox > .split {
+    margin-top: 8%;   
+    color: white !important;
+    font-size: 22px;
+}
+
+.displayedTime >  .countBox > .countBoxItem {
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
+.displayedTime >  .countBox > .countBoxItem > .count {
+    color: white !important; 
+    margin-top: -2%;
+    background-color: black !important;
+    font-family: 'Press Start 2P';
+    font-size: 20px !important;
+}
+
+.displayedTime >  .countBox > .countBoxItem > .label {
+    color: white !important; 
+    text-align: center;
+    font-family: 'Press Start 2P';
+    font-size: 10px !important;
+}
+
+.team-box {
+    border-bottom: 3px solid #717476;
+    background-color: #e7f1eb;
+    border-radius: 10px;
+}
+
+.css-dsq3q4 {
+    margin-right: 0.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 9999px;
+    padding: 0.5rem;
+    font-weight: 600;
+    transition-property: color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 100ms;
+}
+button, [type='button'], [type='reset'], [type='submit'] {
+    
+    background-color: transparent;
+    background-image: none;
+}
+.tooltip-handle {
+    position: relative;
+}
+.css-edyqgg {
+    height: 1.5rem;
+    width: 1.5rem;
+    stroke: currentColor;
+}
+.css-1fnh8j1 {
+    /* height: 1.5rem; */
+    width: 1.5rem;
+    fill: currentcolor;
+}
